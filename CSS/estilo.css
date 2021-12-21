@@ -70,6 +70,7 @@ nav ul li a:hover {
     padding: 15px 0;
 }
 
+
 .banner img {
     height: 140px;
 }
@@ -81,6 +82,7 @@ nav ul li a:hover {
     text-shadow: 3px 3px 3px red;
     text-transform: uppercase;
 }
+
 
 .fraseban h2 {
     font-family: republika;
@@ -99,6 +101,11 @@ h1 {
     color: rgb(255, 255, 255);
     font-family: aller_bd;
     font-size: 50px;
+
+    /* margin: 0 0.5rem; */
+    animation: backInLeft;
+    animation-duration: 1s;
+}
 }
 
 h2 {

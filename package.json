@@ -1,0 +1,19 @@
+{
+  "name": "laena-gym",
+  "version": "1.0.0",
+  "description": "asd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NachoLaena/Laena-Gym.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NachoLaena/Laena-Gym/issues"
+  },
+  "homepage": "https://github.com/NachoLaena/Laena-Gym#readme"
+}

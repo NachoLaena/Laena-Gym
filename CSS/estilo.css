@@ -81,8 +81,10 @@ nav ul li a:hover {
     font-size: 20px;
     text-shadow: 3px 3px 3px red;
     text-transform: uppercase;
-}
 
+    animation: fadeIn;
+    animation-duration: 2s;
+}
 
 .fraseban h2 {
     font-family: republika;
@@ -102,14 +104,15 @@ h1 {
     font-family: aller_bd;
     font-size: 50px;
 
-    /* margin: 0 0.5rem; */
     animation: backInLeft;
     animation-duration: 1s;
 }
+
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 25px;
+
 }
 
 /* Footer */

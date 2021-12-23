@@ -27,8 +27,6 @@
 }
 
 /* Header */
-
-
 nav {
     background: rgb(170, 0, 0);
 }
@@ -70,7 +68,6 @@ nav ul li a:hover {
     padding: 15px 0;
 }
 
-
 .banner img {
     height: 140px;
 }
@@ -103,6 +100,7 @@ h1 {
     color: rgb(255, 255, 255);
     font-family: aller_bd;
     font-size: 50px;
+    margin-bottom:30px;
 
     animation: backInLeft;
     animation-duration: 1s;
@@ -112,7 +110,6 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 25px;
-
 }
 
 /* Footer */
@@ -155,25 +152,11 @@ footer .contacto div {
 }
 
 /* Inicio */
-
-.galeria {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    margin: 30px 0;
-}
-
-.galeria img {
-    border: solid 1px white;
-    width: 350px;
-    height: 250px;
-}
-
 p {
-    margin: 0px 50px 50px 50px;
+    margin: 30px 50px 30px 50px;
     padding: 10px;
     text-align: center;
-    background: rgba(0, 0, 0, 0.755);
+    background: rgba(0, 0, 0, 0.589);
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -252,7 +235,7 @@ p {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 3px;
     justify-content: center;
-    margin: 30px 100px;
+    margin: 0px 100px 30px;
 }
 
 .griditem-tienda {
@@ -329,13 +312,6 @@ input {
 
 
 /* Media */
-
-@media screen and (max-width: 1100px) {
-    .galeria {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-}
 
 @media screen and (max-width: 650px) {
     nav ul {

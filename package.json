@@ -4,7 +4,9 @@
   "description": "asd",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/estilo.scss CSS/estilo.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/NachoLaena/Laena-Gym/issues"
   },
-  "homepage": "https://github.com/NachoLaena/Laena-Gym#readme"
+  "homepage": "https://github.com/NachoLaena/Laena-Gym#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
 }

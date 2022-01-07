@@ -10,6 +10,7 @@
   font-family: aller_bd;
   src: url(../fonts/Aller_Bd.ttf); }
 
+/* Cosas generales */
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +21,25 @@
   width: 100%;
   background: linear-gradient(90deg, transparent 10%, red, transparent 90%);
   height: 2px; }
+
+main {
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  padding: 30px 0px; }
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: aller_bd;
+  font-size: 50px;
+  margin-bottom: 30px;
+  animation: backInLeft;
+  animation-duration: 1s; }
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 25px; }
 
 /* Header */
 nav {
@@ -69,26 +89,6 @@ nav ul li a {
 
 .fraseban h2 {
   font-family: republika; }
-
-/* Background y tiulos */
-main {
-  background-color: #485461;
-  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
-  padding: 30px 0px; }
-
-h1 {
-  text-align: center;
-  color: white;
-  font-family: aller_bd;
-  font-size: 50px;
-  margin-bottom: 30px;
-  animation: backInLeft;
-  animation-duration: 1s; }
-
-h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  margin: 25px; }
 
 /* Footer */
 footer {
@@ -158,7 +158,7 @@ p {
 
 .compra {
   text-align: center;
-  background: #9e0000;
+  background: #aa0000;
   width: 100%; }
   .compra:hover {
     background: #d00; }
@@ -170,7 +170,7 @@ p {
     border-radius: 25px;
     text-transform: uppercase;
     box-shadow: 0px 0px 15px 1px #c20000;
-    background-color: #b40000;
+    background-color: #aa0000;
     color: white;
     text-decoration: none;
     padding: 10px; }
@@ -246,7 +246,7 @@ p {
   padding: 7px;
   margin: 6px 0;
   border: none;
-  border-bottom: 3px solid #960000;
+  border-bottom: 3px solid #aa0000;
   background: transparent; }
   .form__input:focus {
     background: linear-gradient(to bottom, transparent, #222);
@@ -264,14 +264,14 @@ p {
     margin: auto; }
 
 .form input[type="submit"] {
-  background-color: #960000;
+  background-color: #aa0000;
   border: none; }
   .form input[type="submit"]:hover {
     background-color: red; }
   .form input[type="submit"]:focus {
-    background: #960000; }
+    background: #aa0000; }
   .form input[type="submit"]:active {
-    background: linear-gradient(to bottom, red, #960000); }
+    background: linear-gradient(to bottom, red, #aa0000); }
 
 /* Media */
 @media screen and (max-width: 650px) {

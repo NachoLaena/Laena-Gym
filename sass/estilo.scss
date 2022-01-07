@@ -13,6 +13,11 @@
     src: url(../fonts/Aller_Bd.ttf);
 }
 
+//Variables
+$color-principal: rgb(170, 0, 0);
+$fuente-titulo: aller_bd;
+
+/* Cosas generales */
 * {
     margin: 0;
     padding: 0;
@@ -26,9 +31,32 @@
     height: 2px;
 }
 
+main {
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    padding: 30px 0px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: $fuente-titulo;
+    font-size: 50px;
+    margin-bottom: 30px;
+    
+    animation: backInLeft;
+    animation-duration: 1s;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 25px;
+}
+
 /* Header */
 nav {
-    background: rgb(170, 0, 0);
+    background: $color-principal;
 }
 
 nav ul {
@@ -87,30 +115,6 @@ nav ul li a {
     font-family: republika;
 }
 
-/* Background y tiulos */
-
-main {
-    background-color: #485461;
-    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
-    padding: 30px 0px;
-}
-
-h1 {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: aller_bd;
-    font-size: 50px;
-    margin-bottom: 30px;
-
-    animation: backInLeft;
-    animation-duration: 1s;
-}
-
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin: 25px;
-}
 
 /* Footer */
 
@@ -153,15 +157,15 @@ footer .contacto div {
 
 /* Inicio */
 
-@import "inicio.scss";
+@import "_inicio.scss";
 
 /* Tienda */
 
-@import "tienda.scss";
+@import "_tienda.scss";
 
 /* Contacto */
 
-@import "contacto.scss";
+@import "_contacto.scss";
 
 /* Media */
 

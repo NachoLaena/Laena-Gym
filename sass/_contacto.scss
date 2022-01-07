@@ -22,7 +22,7 @@
     padding: 7px;
     margin: 6px 0;
     border: none;
-    border-bottom: 3px solid rgb(150, 0, 0);
+    border-bottom: 3px solid $color-principal;
     background: transparent;
     &:focus {
         background: linear-gradient(to bottom, transparent, #222);
@@ -45,16 +45,16 @@
 
 
 .form input[type="submit"] {
-    background-color: rgb(150, 0, 0);
+    background-color: $color-principal;
     border: none;
     &:hover {
         background-color: rgb(255, 0, 0);
     }
     &:focus {
-        background: rgb(150, 0, 0);
+        background: $color-principal;
     }
     &:active {
-        background: linear-gradient(to bottom, rgb(255, 0, 0), rgb(150, 0, 0));
+        background: linear-gradient(to bottom, rgb(255, 0, 0), $color-principal);
     }
 }
 

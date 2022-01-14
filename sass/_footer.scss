@@ -1,0 +1,39 @@
+footer {
+    padding: 10px;
+    display: flex;
+    background: rgba(0, 0, 0, 0.931);
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    .contacto {
+        div {
+        padding: 5px;
+        }
+        a {
+            @extend %tdn;
+        }
+    }
+}
+
+
+
+.wpp {i {
+    color: green;
+    }
+    span:hover {
+    color: green;
+    }
+}
+
+.insta {
+    i {
+    color: rgb(202, 3, 152);
+    }
+    span:hover {
+        color: rgb(202, 3, 152);
+    }
+}
+
+.copy {
+    align-self: end;
+}

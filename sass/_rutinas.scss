@@ -1,0 +1,43 @@
+.container-rutines{
+    display:flex;
+    align-items: center;
+    Justify-content: center;
+    .rutine-card1{
+        @include rutinas(100px,30px,#ffd500,0);
+    }
+
+    .rutine-card2{
+        @include rutinas(50px,200px,#5c0099,12%);
+    }
+    
+    .rutine-card3{
+        @include rutinas(75px,350px,#510087,12%);
+    }
+
+    .rutine-card4{
+        @include rutinas(100px,450px,#3d0066,12%);
+    }
+    
+    .rutine-card5{
+        @include rutinas(750px,30px,#ffd500,0);
+        color:#3d0066;
+    }
+
+    .rutine-card6{
+        @include rutinas(100px,450px,#3d0066,12%);
+    }
+    
+    .rutine-card7{
+        @include rutinas(75px,350px,#510087,12%);
+    }
+    
+    .rutine-card8{
+        @include rutinas(50px,200px,#5c0099,12%);
+    }
+
+    .rutine-card9{
+        @include rutinas(100px,30px,#ffd500,0);
+    }
+}
+
+

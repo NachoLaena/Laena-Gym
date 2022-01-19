@@ -13,6 +13,7 @@
     align-items: center;
     gap: 20px;
     margin: 50px;
+
     .routine-card1 {
         @include rutinas(#34091e);
     }
@@ -45,14 +46,14 @@
         Justify-content: center;
         align-items: center;
     }
-    
+
     img {
         width: 90%;
         height: 90%;
         border-radius: 50% 50%;
         object-fit: cover;
     }
-    
+
     .routine-text {
         width: 300px;
         display: flex;
@@ -66,16 +67,16 @@
 }
 
 /* Media */
-@media screen and (max-width: 1150px){
+@media screen and (max-width: 1150px) {
     .container-routines {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
-    
+
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) {
     .container-routines {
         display: grid;
         grid-template-columns: 1fr;

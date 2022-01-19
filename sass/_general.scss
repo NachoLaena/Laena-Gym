@@ -23,7 +23,7 @@ h1 {
     font-family: $fuente-titulo;
     font-size: $h1;
     margin-bottom: 30px;
-    
+
     animation: backInLeft;
     animation-duration: 1s;
 }
@@ -34,13 +34,13 @@ h2 {
     margin: $h2;
 }
 
-p{
+p {
     margin: 30px 50px;
     padding: 10px;
     text-align: center;
     background: $gris;
     color: rgb(255, 255, 255);
-    font-family:$fuente-texto;
+    font-family: $fuente-texto;
     font-size: 1.5rem;
 }
 

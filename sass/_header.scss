@@ -1,52 +1,116 @@
 nav {
     background: $color-principal;
+
     ul {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    li {
-    display: flex;
-    align-items: center;
-        i {
-        padding-right: 10px;
-        }
-        a {
-        @extend %tdn;
-        padding: 10px 15px;
-        border: 1px solid transparent;
-        font-family: sans-serif;
-        font-weight: 600;
-        display: block;
-        color: rgb(255, 255, 255);
-            &:hover {
-                background: rgba(0, 0, 0, 0.25);
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+
+        li {
+            display: flex;
+            align-items: center;
+
+            i {
+                padding-right: 10px;
+            }
+
+            a {
+                @extend %tdn;
+                padding: 10px 15px;
+                border: 1px solid transparent;
+                font-family: sans-serif;
+                font-weight: 600;
+                display: block;
+                color: rgb(255, 255, 255);
+
+                &:hover {
+                    background: rgba(0, 0, 0, 0.4);
+                }
             }
         }
-    }
     }
 }
 
 
 .banner {
-    background: black;
+    background: $negro;
     display: flex;
     justify-content: space-around;
     width: 100%;
     padding: 15px 0;
+
     img {
         height: 140px;
     }
+
     .fraseban {
         width: 100%;
         align-self: center;
         font-size: 20px;
-        text-shadow: 3px 3px 3px red;
+        text-shadow: 3px 3px 3px $color-principal;
         text-transform: uppercase;
-    
+
         animation: fadeIn;
         animation-duration: 2s;
+
         h2 {
-        font-family: republika;
+            font-family: republika;
         }
+    }
+}
+
+/* Media */
+@media screen and (max-width: 650px) {
+    nav ul {
+        justify-content: center;
+
+        li {
+            a {
+                padding: 10px 15px;
+                font-size: 12px;
+            }
+
+            i {
+                padding-right: 5px;
+            }
+        }
+    }
+
+    .banner {
+        .fraseban {
+            font-size: 10px
+        }
+
+        img {
+            height: 90px;
+        }
+    }
+}
+
+@media screen and (max-width:450px) {
+    nav ul li {
+        a {
+            padding: 10px 10px;
+            font-size: 10px;
+
+            i {
+                padding-right: 5px;
+            }
+        }
+
+    }
+
+    .banner {
+        img {
+            height: 70px;
+        }
+
+        .fraseban {
+            font-size: 6px;
+        }
+    }
+
+    .fraseban {
+        font-size: 7px;
     }
 }

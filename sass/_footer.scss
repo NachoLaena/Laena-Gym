@@ -5,30 +5,33 @@ footer {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+
     .contacto {
         div {
-        padding: 5px;
+            padding: 5px;
         }
+
         a {
             @extend %tdn;
         }
     }
 }
 
-
-
-.wpp {i {
-    color: green;
+.wpp {
+    i {
+        color: green;
     }
+
     span:hover {
-    color: green;
+        color: green;
     }
 }
 
 .insta {
     i {
-    color: rgb(202, 3, 152);
+        color: rgb(202, 3, 152);
     }
+
     span:hover {
         color: rgb(202, 3, 152);
     }
@@ -36,4 +39,17 @@ footer {
 
 .copy {
     align-self: end;
+}
+
+/* Media */
+@media screen and (max-width: 650px) {
+    footer {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    footer {
+        font-size: 8px;
+    }
 }

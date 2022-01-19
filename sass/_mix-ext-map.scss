@@ -2,22 +2,9 @@
     text-decoration: none;
 }
 
-@mixin rutinas($wdh, $hgt, $bgc, $br){
-    display: flex;
-    width: $wdh;
-    height: $hgt;
-    background-color: $bgc;
-    border-radius: $br;
-    Justify-content: center;
-    align-items:center;
-    margin: 5px;
-    font-size: 1.5rem;
-    color: #ffd500;
-}
-
 $font-map: (
-    h1:100px,
-    h2:30px,
+    h1:6rem,
+    h2:2rem,
 );
 
 $h1: map-get($font-map, h1);

@@ -13,9 +13,18 @@
     src: url(../fonts/Aller_Bd.ttf);
 }
 
+@font-face {
+    font-family: winter;
+    src: url(../fonts/WinterthurCondensedOblique.ttf)
+}
+
 //Variables
-$color-principal: rgb(170, 0, 0);
+$color-principal: #ba181b;
+$color-resaltador: #fd0004;
+$negro: #0b090a;
+$gris: #161a1d;
 $fuente-titulo: aller_bd;
+$fuente-texto: winter;
 
 //Mixins, extends  & maps
 @import "_mix-ext-map.scss";
@@ -29,8 +38,8 @@ $fuente-titulo: aller_bd;
 /* Inicio */
 @import "_inicio.scss";
 
-/* Rutinas */
-@import "_rutinas.scss";
+/* Horarios */
+@import "_horarios.scss";
 
 /* Tienda */
 @import "_tienda.scss";
@@ -40,6 +49,3 @@ $fuente-titulo: aller_bd;
 
 /* Footer */
 @import "_footer.scss";
-
-/* Media */
-@import "_media.scss";

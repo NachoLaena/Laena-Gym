@@ -1,0 +1,84 @@
+@mixin rutinas($bgc) {
+    width: 350px;
+    height: 350px;
+    background-color: $bgc;
+    border-radius: 50% 50%;
+}
+
+.container-routines {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    Justify-items: center;
+    align-items: center;
+    gap: 20px;
+    margin: 50px;
+    .routine-card1 {
+        @include rutinas(#34091e);
+    }
+
+    .routine-card2 {
+        @include rutinas(#430c27);
+    }
+
+    .routine-card3 {
+        @include rutinas(#55062d);
+    }
+
+    .routine-card4 {
+        @include rutinas(#660033);
+    }
+
+    .routine-card5 {
+        @include rutinas(#802754);
+    }
+
+    .routine-card6 {
+        @include rutinas(#994d74);
+    }
+
+
+    .routine-img {
+        width: 350px;
+        height: 350px;
+        display: flex;
+        Justify-content: center;
+        align-items: center;
+    }
+    
+    img {
+        width: 90%;
+        height: 90%;
+        border-radius: 50% 50%;
+        object-fit: cover;
+    }
+    
+    .routine-text {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+}
+
+/* Media */
+@media screen and (max-width: 1150px){
+    .container-routines {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    
+}
+
+@media screen and (max-width:800px){
+    .container-routines {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
